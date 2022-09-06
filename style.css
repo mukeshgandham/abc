@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lavender;
+   
+}
+
+header {
+    width: 100%;
+    height: 60px;
+    background-color: darkblue;
+}
+
+.head2 {
+    background-color: lightgray;
+    width: 100%;
+    height: 70px;
+  
+
+}
+.nav_menu {
+    max-width: 900px;
+    margin: auto;
+}
+
+.head2_menu {
+    float: right;
+    display: flex;
+ 
+}
+
+.home {
+    background-color: lightgray;
+    color: darkblue;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+    font-family: 'Poppins';
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: darkblue;
+}
+
+.head2_menu ul {
+    list-style-type: none;
+}
+
+/* Styles for ABOUT US Drop Button */
+.dropbtn {
+    background-color: lightgray;
+    color: darkblue;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+    font-family: 'Poppins';
+    cursor: pointer;
+}
+
+.dropdown1 {
+    position: relative;
+    /* display: inline-block; */
+    /* float: right; */
+    padding: 0 20px;
+}
+
+.dropdown-content1 {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    font-size: 13px;
+    text-align: center;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    font-family: 'Poppins';
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.dropdown-content1 a {
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content1 a:hover {
+    background-color: darkblue;
+    color: white;
+}
+
+.dropdown1:hover .dropdown-content1 {
+    display: block;
+}
+
+.dropdown1:hover .dropbtn {
+    background-color: lightgrey;
+}
+
+/* Dropdown styles for treatment */
+.treatbtn {
+    background-color: lightgray;
+    color: darkblue;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+    font-family: 'Poppins';
+    cursor: pointer;
+}
+.treatment {
+    position: relative;
+    /* display: inline-block; */
+    /* float: right; */
+    padding: 0 20px;
+}
+
+.treatment-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    font-size: 13px;
+    text-align: center;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    font-family: 'Poppins';
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.treatment-content a {
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.treatment-content a:hover {
+    background-color: darkblue;
+    color: white;
+}
+
+.treatment:hover .treatment-content {
+    display: block;
+}
+
+.treatment:hover .treatbtn {
+    background-color: lightgrey;
+}
+
+
+
+.contact {
+    background-color: lightgray;
+    color: darkblue;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+
+.media {
+    background-color: lightgray;
+    color: darkblue;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+    font-family: 'Poppins';
+    cursor: pointer;
+}
+
+.faqs {
+    background-color: lightgray;
+    color: darkblue;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+    font-family: 'Poppins';
+    cursor: pointer;
+}
+
+.main_content {
+    padding-left: 40px;
+    padding-top: 100px;
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+}
+
+.main_intro h1 {
+    font-family: 'Oxygen';
+    margin-bottom: 10px;
+    font-size: 50px;
+    color: darkblue;
+    
+}
+
+.main_intro p {
+    font-family: 'Oxygen';
+    text-indent: 130px;
+    line-height: 30px;
+    width: 100%;
+    font-weight: bold;
+    margin-bottom: 50px;
+    font-size: 19px;
+}
+.main_intro2 {
+               width: 100%;
+}
+
+.main_intro2 h1 {
+              text-align: center;
+              font-family: 'Oxygen';
+              margin-bottom: 20px;
+              font-size: 40px;
+              color: darkblue;
+
+}
+.main_intro2 p{
+               width: 100%;
+               text-indent: 130px;
+               line-height: 35px;
+               font-family: 'Oxygen';
+               font-weight: bold;
+               font-size: 20px;
+               margin-bottom: 50px;
+}

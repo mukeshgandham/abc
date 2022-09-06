@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asthma Treatment</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: lavender;
+        }
+
+        .head_banner {
+            margin-top: 100px;
+            margin-bottom: 30px;
+        }
+
+        .desc {
+            padding: 60px 0 30px 0;
+        }
+
+        .content {
+            width: 100%;
+            padding-right: 90px;
+            padding-left: 90px;
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        .about_content {
+            font-family: 'Poppins', sans-serif;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        .sub_content {
+            display: flex;
+            flex-wrap: wrap;
+            margin-right: -90px;
+            margin-left: 90px;
+        }
+
+        h1 {
+            color: darkblue;
+            margin-bottom: 10px;
+        }
+
+        p {
+            margin-top: 5px;
+            width: 600px;
+        }
+
+        .apnt_form {
+            float: right;
+            border: 1px solid transparent;
+            background-color: lavender;
+            width: 400px;
+            padding: 16px;
+            margin: 0 40px;
+            box-shadow: 2px 2px 5px 0 rgb(0, 0, 0.15);
+        }
+
+        h3 {
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        h3::after {
+            content: '';
+            position: relative;
+            display: block;
+            width: 75px;
+            height: 3px;
+            background: darkblue;
+            bottom: 0;
+            left: 0;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 5px;
+        }
+
+
+        .form_in {
+            display: grid;
+        }
+
+        .form_in input {
+            margin: 7px;
+            width: 100%;
+            height: 50px;
+            border: 1px solid black;
+            border-radius: 13px;
+            padding: 14px;
+            font-size: 20px;
+            font-family: poppins;
+        }
+
+        #message {
+            margin: 7px;
+            width: 100%;
+            height: 60px;
+            border: 1px solid black;
+            border-radius: 13px;
+            padding: 14px;
+            font-size: 20px;
+            font-family: poppins;
+        }
+
+        button {
+            background-color: darkblue;
+            /* padding: 10px 4px; */
+            height: 40px;
+            width: 150px;
+            color: white;
+            font-family: poppins;
+            border-radius: 20px;
+            vertical-align: middle;
+        }
+
+        .banner2 {
+            width: 100%;
+            height: 500px;
+            background-color: aliceblue;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="head">
+        <div class="head_banner">
+            <img src="./images/asthma.jpg" alt="main banner" width="100%" height="230px">
+        </div>
+    </section>
+
+    <section class="desc">
+        <div class="content">
+            <div class="sub_content">
+                <div class="about">
+                    <div class="about_content">
+                        <h1>Homeopathy Treatment for Asthma</h1>
+
+                        <b>What is Asthma & How is it caused?</b>
+
+                        <p>Asthma is a disease affecting the airways that carry
+                            air in and out of your lungs. It is a chronic disease
+                            in which a person's airways become inflamed, narrow
+                            and swell making it difficult to breathe. The muscles
+                            around the inflamed airways get irritated causing them
+                            to contract (squeeze) which leads to narrowing of the airways.
+                            It becomes difficult for air to get in and out through these
+                            narrowed airways in turn leading to wheezing and breathlessness.
+                            The inflammation of airways also causes the mucous lining of the
+                            airways to make extra mucus which causes cough and further irritation
+                            of the airways, this is called Asthma Attack. An asthma attack may be
+                            triggered due to several factors like allergies, stress, obesity and
+                            infections. It is also believed that sinusitis can also trigger an
+                            asthma attack. The people who suffer from this condition are said
+                            to be Asthmatic.
+                        </p>
+                    </div>
+
+                </div>
+                <div class="apnt_form">
+                    <div class="form1">
+                        <h3>Book an Appointment</h3>
+                    </div>
+                    <div class="form_in">
+                        <input type="text" id="name" placeholder="Name*">
+                        <input type="text" id="email" placeholder="Email">
+                        <input type="number" id="number" placeholder="Phone No*">
+                        <textarea type="text" id="message" placeholder="Message"></textarea>
+                        <button type="submit" class="submit">Send Message</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="banner2">
+        <div class="banner2_container">
+            <div class="ban_container1">
+                <h1>Types</h1>
+                <p>Based on the severity and duration of the symptoms asthma is classified into:</p>
+                <ul class="ban2_list">
+                    <li>Intermittent</li>
+                    <li> Mild Persistent</li>
+                    <li> Moderate</li>
+                    <li> Severe</li>
+                </ul>
+                <p>
+                    If asthma is due to an allergy it is called Atopic asthma and it is the most common
+                    type of childhood asthma. The person with Atopic asthma is called
+                    an Atopic individual. Asthma due to chronic exposure to chemical fumes
+                    or allergens in the workplace is called Occupational asthma, which is the
+                    common type of adulthood asthma.
+                </p>
+            </div>
+        </div>
+        <div class="banner2_container2">
+            <div class="ban_container2">
+                <h1>Does Asthma affect everyone?</h1>
+                
+            </div>
+        </div>
+
+    </section>
+
+</body>
+
+</html>
